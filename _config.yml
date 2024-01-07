@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Liang You"
   avatar           : "profile.png"
-  bio              : "神奇的鸡蛋纺纱机会将蛋黄和蛋白融为一体，这不神奇嘛"
+  bio              : "A junior undergraduate student majoring in Stats at Xiamen University"
   location         : "Xiamen, Fujian"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            : "liangyou03@gmail.com"
+  pubmed           :
+  googlescholar    : 
+  email            : "https://liangyou03@gmail.com/"
   researchgate     :
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "liangyou03.github.io"
+  github           : "https://github.com/liangyou03/"
   google_plus      :
   keybase          :
   instagram        :
