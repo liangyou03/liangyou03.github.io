@@ -27,7 +27,6 @@ Work experience
 #### Duties included:
 * Actively participate in the collection of literature and documents, and join in the project team's communication activities.
 * Apply statistical and machine learning methods to analyze medical data such as case reports, extract information, and build predictive models.
----
 
 ## Fall 2023: Data Analysist Intern
 ### Tencent, Remote
@@ -35,7 +34,6 @@ Work experience
 * Conducted comprehensive data analysis on UGC content across popular gaming platforms using Excel, Python, and R.
 * Generated clear and logical analysis reports highlighting UGC trends in the gaming industry.
 * Proficiently applied NLP techniques to analyze gaming-related text data.Produced word frequency statistics, word clouds, and text clustering to uncover deeper insights and meanings within gaming texts.
----
 
 ## Summer 2022: Data Analysist Intern
 ### Gildata, Hangzhou
