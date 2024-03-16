@@ -25,8 +25,7 @@ Work experience
 ======
 ## Dec 2023-Present: Research Assistant Intern
 ### National Institute of Health Data Science at Peking University, Beijing
-Publications
-======
+
 Project at hands: _Real-world Time Series Data-based Analysis of Intraoperative Anaphylaxis_
 * In this project, physiological signals of patients such as HR, ISBP, and IDBP are utilized to differentiate Intraoperative Anaphylaxis (IA) from ordinary hypotension during surgery.
 * Hundreds of features are extracted from the raw time series data, and RFECV is applied to select the relevant features.
