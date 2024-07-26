@@ -17,21 +17,29 @@ Education
 
 Reseach interest
 ======
-* Health Informatics
-* Time Series
-* Biostats & Bioinfo
+* Biostats
+* Bioinfo
+* Statistical Learning
 
-Work experience
+Reseach experience
 ======
-## Dec 2023-Present: Research Assistant Intern
-### National Institute of Health Data Science at Peking University, Beijing
+## Apr 2023-Present: Remote RA
+### Pittsburgh University, Pittsburgh, PA
+
+* Responsible for  and debugging the "EnsDeconv" R package and its shiny app, which estimates cellular fractions from bulk omics data using ensemble learning.
+* Deploy the shiny app to webpage, adding new features to the shiny app
+
+## Dec 2023-Aug 2024: Research Assistant Intern
+### National Institute of Health Data Science at **Peking University**, Beijing
 
 Project at hands: _Real-world Time Series Data-based Analysis of Intraoperative Anaphylaxis_
 * In this project, physiological signals of patients such as HR, ISBP, and IDBP are utilized to differentiate Intraoperative Anaphylaxis (IA) from ordinary hypotension during surgery.
 * Hundreds of features are extracted from the raw time series data, and RFECV is applied to select the relevant features.
 * Subsequently, models are trained using Random Forest (RF), CatBoost, and XGBoost with a grid search approach, achieving an AUC of over 0.8.
 
-  
+Work experience
+======
+
 ## Fall 2023: Data Analysist Intern
 ### Tencent, Remote
 #### Duties included:
