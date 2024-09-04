@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * B.S. in Mathematical Statistics, Xiamen University, 2025 (expected)
-* Exchange student, University of California, Santa Barbara, 2023 fall
+* Visiting student, University of California, Santa Barbara, 2023 fall
 
 
 Reseach interest
@@ -26,16 +26,14 @@ Reseach experience
 ## Apr 2023-Present: Remote RA
 ### Pittsburgh University, Pittsburgh, PA
 
-* Responsible for  and debugging the "EnsDeconv" R package and its shiny app, which estimates cellular fractions from bulk omics data using ensemble learning.
-* Deploy the shiny app to webpage, adding new features to the shiny app
+* Responsible for and debugging the “EnsDeconv” R package and its shiny app, which estimates cellular fractions from bulk omics data using ensemble learning. Deploy the shiny app to webpage, adding new features including time tolerance.
 
 ## Dec 2023-Aug 2024: Research Assistant Intern
 ### National Institute of Health Data Science at **Peking University**, Beijing
 
 Project at hands: _Real-world Time Series Data-based Analysis of Intraoperative Anaphylaxis_
-* In this project, physiological signals of patients such as HR, ISBP, and IDBP are utilized to differentiate Intraoperative Anaphylaxis (IA) from ordinary hypotension during surgery.
-* Hundreds of features are extracted from the raw time series data, and RFECV is applied to select the relevant features.
-* Subsequently, models are trained using Random Forest (RF), CatBoost, and XGBoost with a grid search approach, achieving an AUC of over 0.8.
+* Work closely with doctors and medical students to come up with good ideas regarding data-preposseing and details of our paper
+* Extract and select features from the raw time series data, train several ML models such ad RF, CatBoost, XGBoost, with a grid search approach, using corss-validation approach.
 
 Work experience
 ======
@@ -43,9 +41,8 @@ Work experience
 ## Fall 2023: Data Analysist Intern
 ### Tencent, Remote
 #### Duties included:
-* Conducted comprehensive data analysis on UGC(User Generated Content) across popular gaming platforms using Excel, Python, and R.
-* Generated clear and logical analysis reports highlighting UGC trends in the gaming industry.
-* Proficiently applied NLP techniques to analyze gaming-related text data.Produced word frequency statistics, word clouds, and text clustering to uncover deeper insights and meanings within gaming texts.
+* Conducted comprehensive analysis and data cleaning of scrapped User Generated Content (UGC) across major gaming platforms using Python and R. 
+* Applied NLP techniques, including word frequency analysis, word clouds, and text clustering, to identify trends and insights within gaming texts. Generated detailed reports highlighting key UGC trends in the gaming industry.
 
 ## Summer 2022: Data Analysist Intern
 ### Gildata, Hangzhou
