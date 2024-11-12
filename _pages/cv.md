@@ -17,21 +17,23 @@ Education
 
 Reseach interest
 ======
-* Biostats
-* Bioinfo
-* Statistical Learning
+* Machine Learning
+* Genomics
+* Healthe Data Science & AI4Health
 
 Reseach experience
 ======
 ## Apr 2023-Present: Remote RA
 ### Pittsburgh University, Pittsburgh, PA
 
-* Responsible for and debugging the “EnsDeconv” R package and its shiny app, which estimates cellular fractions from bulk omics data using ensemble learning. Deploy the shiny app to webpage, adding new features including time tolerance.
+* Maintain and debug “EnsDeconv” R package and Shiny app for **cellular deconvolution**. Adding new features including time tolerance and adjusting UI.
+* Experimented with multiple models (Cellpose, StarDist) to segment nuclei in immunofluorescence (IF) images. Developed methods to determine cell types by analyzing immunostaining images for specific markers.
+* Conducted an extensive study of **spatial transcriptomics** techniques, preparing for comprehensive benchmarking analyses to evaluate and compare different methodologies, with a focus on cell segmentation.
 
 ## Dec 2023-Aug 2024: Research Assistant Intern
 ### National Institute of Health Data Science at **Peking University**, Beijing
 
-Project at hands: _Real-world Time Series Data-based Analysis of Intraoperative Anaphylaxis_
+Paper under submission: _Real-world Time Series Data-based Analysis of Intraoperative Anaphylaxis_
 * Work closely with doctors and medical students to come up with good ideas regarding data-preposseing and details of our paper
 * Extract and select features from the raw time series data, train several ML models such ad RF, CatBoost, XGBoost, with a grid search approach, using corss-validation approach.
 
@@ -57,6 +59,7 @@ Skills
   * Python
   * R
   * SQL
+  * Stata
 
 * Language
   * Chinese Mandarin: Mother tone
