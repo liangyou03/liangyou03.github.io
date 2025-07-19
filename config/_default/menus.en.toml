@@ -1,0 +1,18 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "CV"
+pre = "bluesky"
+pageRef = "cv"
+identifier = "dDixXhB1Gq"
+weight = 9_999
+
+[[footer]]
+none = "none"
+
+
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 10

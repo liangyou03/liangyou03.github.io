@@ -1,0 +1,23 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Liang's Personal Page"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+
+  [params.author]
+  links = [ ]
+
+["params.author"]
+name = "You, Liang"
+headline = "PhD Student in Biostatistics at PITT"
+image = "img/author.png"
+bio = "A little bit about me"
+links = [
+  { twitter = "https://twitter.com/username" }
+]
