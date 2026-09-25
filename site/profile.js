@@ -14,6 +14,7 @@ window.PROFILE = {
   location: "Pittsburgh, PA, USA",
   bio: "My research spans statistical learning, biomedical data science, physiological time-series modeling, and computational methods for health.",
   email: "liy121@pitt.edu",
+  publicationLegend: "# Equal contribution · * Corresponding authors",
   education: [
     {
       institution: "University of Pittsburgh",
@@ -38,14 +39,13 @@ window.PROFILE = {
   publications: [
     {
       authors: [
-        { name: "L. You", self: true },
+        { name: "L. You", self: true, corresponding: true },
         { name: "H. Shi" },
         { name: "D. Ou" },
       ],
       title: "SimplexUQ: An Evaluation Framework and Benchmark for Conformal Uncertainty on Simplex-Valued Predictions.",
-      venue: "NeurIPS 2026 Evaluations & Datasets Track (Poster).",
+      venue: "NeurIPS 2026.",
       url: "",
-      note: "",
     },
     {
       authors: [
@@ -60,7 +60,6 @@ window.PROFILE = {
       venue: "Journal of Medical Systems, 50(1), 128, 2026.",
       url: "https://doi.org/10.1007/s10916-026-02452-8",
       linkLabel: "DOI ↗",
-      note: "# Equal contribution · * Corresponding authors",
     },
     {
       authors: [
@@ -72,7 +71,6 @@ window.PROFILE = {
       venue: "ICML 2026 Workshop on Structured Data for Health (SD4H).",
       url: "https://openreview.net/forum?id=h2I7GN4hTh",
       linkLabel: "OpenReview ↗",
-      note: "* Corresponding author",
     },
   ],
 

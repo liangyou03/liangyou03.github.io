@@ -23,6 +23,7 @@ setText("position", profile.position);
 setText("affiliation", profile.affiliation);
 setText("location", profile.location);
 setText("bio", profile.bio);
+setText("publication-legend", profile.publicationLegend);
 setText("copyright", "© " + new Date().getFullYear() + " " + profile.name);
 
 document.querySelectorAll("[data-email]").forEach((link) => {
@@ -56,7 +57,6 @@ byId("publication-list").replaceChildren(
     });
     const title = make("p", "citation", "“" + item.title + "”");
     body.append(authors, title, make("p", "venue", item.venue));
-    if (item.note) body.append(make("p", "pub-note", item.note));
     row.append(body);
     if (item.url) {
       const link = make("a", "pub-link", item.linkLabel || "Paper ↗");
