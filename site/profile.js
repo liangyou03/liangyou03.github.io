@@ -73,6 +73,22 @@ window.PROFILE = {
     },
   ],
 
+  workshops: [
+    {
+      title: "Foundation models for cell segmentation: fine-tuning and population-scale analysis",
+      role: "Workshop co-instructor",
+      presenters: [
+        { name: "Jiebiao Wang" },
+        { name: "Liang You", self: true },
+      ],
+      series: "Fall 2026 Bioinformatics Workshops: AI for Biomedical and Life Science Research",
+      host: "Pitt Research Center for Research Computing and Data × NVIDIA",
+      date: "Oct 27, 2026 · 1:00–4:00 PM",
+      format: "Virtual",
+      url: "https://www.crc.pitt.edu/crcd-workshops/bioinformatics-workshops",
+    },
+  ],
+
   honors: [
     {
       title: "Best Ph.D. Qualifying Exam Performance Award",

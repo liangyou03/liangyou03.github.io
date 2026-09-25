@@ -68,6 +68,34 @@ byId("publication-list").replaceChildren(
   }),
 );
 
+byId("workshop-list").replaceChildren(
+  ...profile.workshops.map((item) => {
+    const row = make("article", "workshop");
+    const date = make("div", "workshop-date");
+    date.append(make("span", "", item.date), make("span", "", item.format));
+    const body = make("div", "workshop-body");
+    const presenters = make("p", "workshop-presenters");
+    presenters.append("Presented by ");
+    item.presenters.forEach((presenter, index) => {
+      presenters.append(make(presenter.self ? "strong" : "span", "", presenter.name));
+      if (index < item.presenters.length - 1) presenters.append(" and ");
+    });
+    body.append(
+      make("span", "workshop-role", item.role),
+      make("h3", "", item.title),
+      presenters,
+      make("p", "workshop-series", item.series),
+      make("p", "workshop-host", item.host),
+    );
+    const link = make("a", "workshop-link", "Workshop ↗");
+    link.href = item.url;
+    link.target = "_blank";
+    link.rel = "noreferrer";
+    row.append(date, body, link);
+    return row;
+  }),
+);
+
 byId("honors-list").replaceChildren(
   ...profile.honors.map((item) => {
     const row = make("article", "honor-row");
