@@ -14,7 +14,6 @@ window.PROFILE = {
   location: "Pittsburgh, PA, USA",
   bio: "My research spans statistical learning, biomedical data science, physiological time-series modeling, and computational methods for health.",
   email: "liy121@pitt.edu",
-  publicationLegend: "# Equal contribution · * Corresponding authors",
   education: [
     {
       institution: "University of Pittsburgh",
@@ -44,7 +43,7 @@ window.PROFILE = {
         { name: "D. Ou" },
       ],
       title: "SimplexUQ: An Evaluation Framework and Benchmark for Conformal Uncertainty on Simplex-Valued Predictions.",
-      venue: "NeurIPS 2026.",
+      venue: "Advances in Neural Information Processing Systems (NeurIPS), 2026.",
       url: "",
     },
     {

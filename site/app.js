@@ -23,7 +23,6 @@ setText("position", profile.position);
 setText("affiliation", profile.affiliation);
 setText("location", profile.location);
 setText("bio", profile.bio);
-setText("publication-legend", profile.publicationLegend);
 setText("copyright", "© " + new Date().getFullYear() + " " + profile.name);
 
 document.querySelectorAll("[data-email]").forEach((link) => {
