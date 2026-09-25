@@ -59,7 +59,7 @@ byId("publication-list").replaceChildren(
     if (item.note) body.append(make("p", "pub-note", item.note));
     row.append(body);
     if (item.url) {
-      const link = make("a", "pub-link", index === 0 ? "DOI ↗" : "OpenReview ↗");
+      const link = make("a", "pub-link", item.linkLabel || "Paper ↗");
       link.href = item.url;
       link.target = "_blank";
       link.rel = "noreferrer";

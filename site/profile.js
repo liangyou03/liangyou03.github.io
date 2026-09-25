@@ -38,6 +38,17 @@ window.PROFILE = {
   publications: [
     {
       authors: [
+        { name: "L. You", self: true },
+        { name: "H. Shi" },
+        { name: "D. Ou" },
+      ],
+      title: "SimplexUQ: An Evaluation Framework and Benchmark for Conformal Uncertainty on Simplex-Valued Predictions.",
+      venue: "NeurIPS 2026 Evaluations & Datasets Track (Poster).",
+      url: "",
+      note: "",
+    },
+    {
+      authors: [
         { name: "H. Su", equal: true },
         { name: "L. You", self: true, equal: true },
         { name: "B. Jiang", equal: true },
@@ -48,6 +59,7 @@ window.PROFILE = {
       title: "Machine Learning-based Early Detection of Intraoperative Anaphylaxis Among Patients with Hypotension Using Real-World Physiological Time Series Data.",
       venue: "Journal of Medical Systems, 50(1), 128, 2026.",
       url: "https://doi.org/10.1007/s10916-026-02452-8",
+      linkLabel: "DOI ↗",
       note: "# Equal contribution · * Corresponding authors",
     },
     {
@@ -59,6 +71,7 @@ window.PROFILE = {
       title: "Missingness-Aware Conformal Prediction Under Cross-Hospital Distribution Shift.",
       venue: "ICML 2026 Workshop on Structured Data for Health (SD4H).",
       url: "https://openreview.net/forum?id=h2I7GN4hTh",
+      linkLabel: "OpenReview ↗",
       note: "* Corresponding author",
     },
   ],
