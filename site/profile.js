@@ -10,18 +10,19 @@ window.PROFILE = {
   field: "biostatistics",
   pageTitle: "Page of Liang",
   description:
-    "Liang You is a PhD student in Biostatistics at the University of Pittsburgh working on statistical machine learning for biomedical data.",
+    "Liang You is a PhD student in Biostatistics developing AI methods for biomedical science, from spatial transcriptomics and cell segmentation to Alzheimer's disease.",
   position: "PhD Student in Biostatistics",
   affiliation: "University of Pittsburgh",
   location: "Pittsburgh, PA",
   timezone: "America/New_York",
   status: "Open to collaborations",
   bio:
-    "I develop statistical machine learning methods for biomedical data. My dissertation research focuses on neurodegeneration. I also work on uncertainty quantification that holds up under missingness and distribution shift, and on early detection from physiological time series.",
+    "I develop AI methods for biomedical science, working with omics data such as spatial transcriptomics and with cell segmentation for tissue imaging. My dissertation research focuses on neurodegeneration, specifically Alzheimer's disease. I also work on uncertainty quantification, and I am eager to explore a wide range of problems in AI for health.",
   photo: "assets/before_the_sphinx.jpg",
   photoLabel: "before_the_sphinx.jpg",
   email: "liangyou03@pitt.edu",
   github: "https://github.com/liangyou03",
+  cv: "assets/cv.pdf", // 用你的 CV 替换 site/assets/cv.pdf（文件名保持不变）即可
 
   news: [
     {

@@ -36,6 +36,8 @@ setText("bio", profile.bio);
 setText("photo-label", profile.photoLabel);
 setText("copyright", "© " + new Date().getFullYear() + " " + profile.name);
 if (profile.photo) byId("photo").src = profile.photo;
+if (profile.cv) byId("cv-link").href = profile.cv;
+byId("email-action").href = "mailto:" + profile.email;
 
 document.querySelectorAll("[data-email]").forEach((link) => {
   link.href = "mailto:" + profile.email;
@@ -175,7 +177,7 @@ addEventListener(
   },
   { passive: true },
 );
-const navLinks = [...document.querySelectorAll(".links a")];
+const navLinks = [...document.querySelectorAll(".links a[data-section]")];
 const sectionObserver = new IntersectionObserver(
   (entries) =>
     entries.forEach((entry) => {
