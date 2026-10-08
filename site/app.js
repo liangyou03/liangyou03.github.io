@@ -132,10 +132,21 @@ byId("publication-list").replaceChildren(
 
 byId("workshop-list").replaceChildren(
   ...profile.workshops.map((item) => {
-    const row = make("article", "item");
+    const row = make("article", "item workshop-item");
     const body = make("div");
-    body.append(make("h3", "", item.title), make("p", "", item.role), make("p", "fine", item.host));
-    row.append(when(item.date, item.upcoming), body);
+    const title = make("h3");
+    if (item.url) title.append(external(make("a", "", item.title), item.url));
+    else title.textContent = item.title;
+
+    const presenters = make("p");
+    presenters.append("Presented by ");
+    item.presenters.forEach((presenter, index) => {
+      presenters.append(make(presenter.self ? "strong" : "span", "", presenter.name));
+      if (index < item.presenters.length - 1) presenters.append(" and ");
+    });
+
+    body.append(title, presenters, make("p", "fine", item.host));
+    row.append(body);
     return row;
   }),
 );

@@ -53,12 +53,19 @@ window.PROFILE = {
       ],
       title: "SimplexUQ: An Evaluation Framework and Benchmark for Conformal Uncertainty on Simplex-Valued Predictions",
       venue: "NeurIPS 2026",
-      links: {},
+      links: {
+        arXiv: "https://arxiv.org/abs/2610.00523",
+        PDF: "https://arxiv.org/pdf/2610.00523",
+      },
       bibtex: `@inproceedings{you2026simplexuq,
   title     = {SimplexUQ: An Evaluation Framework and Benchmark for Conformal Uncertainty on Simplex-Valued Predictions},
   author    = {You, Liang and Shi, Hengyu and Ou, Dongwen},
   booktitle = {Advances in Neural Information Processing Systems},
-  year      = {2026}
+  year      = {2026},
+  eprint    = {2610.00523},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url       = {https://arxiv.org/abs/2610.00523}
 }`,
     },
     {
@@ -114,10 +121,12 @@ window.PROFILE = {
   workshops: [
     {
       title: "Foundation models for cell segmentation: fine-tuning and population-scale analysis",
-      role: "Co-instructor with Jiebiao Wang",
+      presenters: [
+        { name: "Jiebiao Wang" },
+        { name: "Liang You", self: true },
+      ],
       host: "Pitt Center for Research Computing and Data × NVIDIA",
-      date: "2026.10.27",
-      upcoming: true,
+      url: "https://www.crc.pitt.edu/crcd-workshops/bioinformatics-workshops",
     },
   ],
 
