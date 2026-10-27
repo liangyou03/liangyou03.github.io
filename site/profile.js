@@ -47,6 +47,24 @@ window.PROFILE = {
   publications: [
     {
       authors: [
+        { name: "L. You", self: true },
+        { name: "J. L. Durbin" },
+        { name: "G. Meng" },
+        { name: "W. Stallaert" },
+        { name: "G. Li" },
+        { name: "S. Uttam" },
+        { name: "H. Feng" },
+        { name: "J. R. Glausier", corresponding: true },
+        { name: "J. Wang", corresponding: true },
+      ],
+      title: "Overcoming segmentation bottlenecks in brain tissue for spatial proteomic inference at population scale",
+      venue: "bioRxiv preprint, 2026",
+      links: {
+        bioRxiv: "https://www.biorxiv.org/content/10.64898/2026.10.22.761199v1",
+      },
+    },
+    {
+      authors: [
         { name: "L. You", self: true, corresponding: true },
         { name: "H. Shi" },
         { name: "D. Ou" },
@@ -121,11 +139,12 @@ window.PROFILE = {
   workshops: [
     {
       title: "Foundation models for cell segmentation: fine-tuning and population-scale analysis",
+      role: "Workshop instructor",
       presenters: [
         { name: "Jiebiao Wang" },
         { name: "Liang You", self: true },
       ],
-      host: "Pitt Center for Research Computing and Data × NVIDIA",
+      host: "Pitt Center for Research Computing and Data × **NVIDIA**",
       url: "https://www.crc.pitt.edu/crcd-workshops/bioinformatics-workshops",
     },
   ],

@@ -145,7 +145,10 @@ byId("workshop-list").replaceChildren(
       if (index < item.presenters.length - 1) presenters.append(" and ");
     });
 
-    body.append(title, presenters, make("p", "fine", item.host));
+    const host = make("p", "fine");
+    host.append(...rich(item.host));
+    if (item.role) body.append(make("p", "fine", item.role));
+    body.append(title, presenters, host);
     row.append(body);
     return row;
   }),
